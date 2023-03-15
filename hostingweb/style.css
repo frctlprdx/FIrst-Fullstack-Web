@@ -1,0 +1,92 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: whitesmoke;
+}
+
+#carouselExampleCaptions{
+    margin-top: 51px;
+	font-family:"Anton";
+	color: #38b09d;;
+}
+
+#carouselExampleCaptions {
+	font-size: 40px;
+	color: whitesmoke;
+
+}
+
+.produk {
+	display: flex;
+}
+
+.promo {
+	margin: 200px 50px 200px 50px;
+}
+.post {
+	margin: 200px 50px 200px 50px;
+}
+input[type=text] {
+  width: 85%;
+  margin-bottom: 5px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.tampil {
+	height: 500px;
+}
+
+.video{
+	height: 500px;
+}
+
+iframe {
+  width: 500px;
+  height: 350px;
+}
+
+input[type=submit] {
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.sosmed {
+	background-color: black;
+}
+
+@media all and (orientation:portrait){
+
+input[type=text] {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+iframe {
+  width: 350px;
+  height: 220px;
+}
+}

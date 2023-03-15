@@ -1,0 +1,19 @@
+table, th, td {
+    margin: auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th{
+    background-color: Black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 80px 10px 80px;
+  }
+
+  td {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px 80px 10px 80px;
+  }
